@@ -102,7 +102,9 @@
 .flex {
     display: flex;
 }
-
+.flex-justify-between {
+  justify-content: space-between;
+}
 .margin-md{
   margin: 1rem;
 }

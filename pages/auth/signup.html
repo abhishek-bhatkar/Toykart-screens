@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singup</title>
+    <link rel="stylesheet" href="https://sahaj-ui.netlify.app/css/style.css">
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+     <!-- Header -->
+     <header class="header">
+        <div class="header-wrapper">
+            <div class="logo">
+                <a href="../../index.html"><span class="logo-title" >Toykart</span></a>
+            </div>
+
+            <div class="flex flex-justify-between flex-items-center flex-gap-lg header-nav"> 
+                <div class="search-input-wrapper">
+                    <input type="text" class="input" aria-label="Search Product" placeholder="Search Product">
+                </div>
+                <nav>
+                    <ul class="navigation">
+                        <li class=" search-icon">
+                            <a href="" class="link">
+                                <div class="badge-container">
+                                    <i class="fas fa-search icon"></i>
+                                </div>
+                            </a>
+                        </li>
+                        <li >
+                            <a href="./cart.html" class="link">
+                                <div class="badge-container">
+                                    <i class="fas fa-shopping-cart icon"></i>
+                                    <span class="badge badge-status badge-notification">3</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./wishlist.html" class="link">
+                                <div class="badge-container">
+                                    <i class="fas fa-heart icon"></i>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./login.html" class="link">
+                                <div class="badge-container">
+                                    <i class="fa-solid fa-user icon"></i>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="min-height-90 flex flex-justify-center flex-items-center">
+        <main class="auth-form mt-xl container-center-sm">
+
+            <h1 class="mb-xl fst-italic">Sign up</h1>
+
+            <div class="form-control-wrapper">
+                <label for="first-name">Enter first name</label>
+                <input id="first-name" type="text" class="input" placeholder="First name">
+            </div>
+
+            <div class="form-control-wrapper">
+                <label for="last-name">Enter last name</label>
+                <input id="last-name" type="text" class="input" placeholder="Last name">
+            </div>
+
+            <div class="form-control-wrapper">
+                <label for="email">Enter email</label>
+                <input id="username" type="text" class="input" placeholder="Enter your email">
+            </div>
+
+            <div class="form-control-wrapper">
+                <label for="password">Enter password</label>
+                <div class="pos-relative">
+                    <input id="password" type="text" class="input" placeholder="Enter your password">
+                    <i class="fas fa-eye-slash icon-eye"></i>
+                </div>
+            </div>
+
+            <div class="form-control-wrapper">
+                <label for="confirm-password">Confirm password</label>
+                <div class="pos-relative">
+                    <input id="confirm-password" type="text" class="input" placeholder="Enter your password">
+                    <i class="fas fa-eye-slash icon-eye"></i>
+                </div>
+            </div>
+
+            <button class="btn primary width-100"> Sign up </button>
+
+            <a href="./signup.html" class="link">
+                <p>Already have an account?
+                    <span>Login</span>
+                </p>
+            </a>
+        </main>
+    </div>
+    
+</body>
+</html>
