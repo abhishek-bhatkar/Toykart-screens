@@ -1,0 +1,28 @@
+.wishlist-main {
+    max-width: 1000px;
+    padding: 0 1rem;
+    margin: 1rem auto;
+  }
+  
+  .wishlist-main .h1 {
+    margin: 2rem 0;
+  }
+  
+  .wishlist-products {
+    gap: 0.5rem;
+  }
+  
+  .card > .icon {
+    color: var(--secondary-color);
+  }
+  
+  @media screen and (max-width: 650px) {
+    .wishlist-products .btn {
+      padding: 0.75rem 0;
+    }
+  
+    .txt-discount {
+      display: block;
+      margin-top: 0.25rem;
+    }
+  }
