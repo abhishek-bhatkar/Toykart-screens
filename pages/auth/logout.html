@@ -5,8 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Logout</title>
+    <link rel="stylesheet" href="https://sahaj-ui.netlify.app/css/style.css">
+    <link rel="stylesheet" href="../../css/style.css">
 </head>
 <body>
+     <!-- Header -->
+     <header class="header">
+        <div class="header-wrapper">
+            <div class="logo">
+                <a href="../../index.html"><span class="logo-title" >Toykart</span></a>
+            </div>
+
+            <div class="flex flex-justify-between flex-items-center flex-gap-lg header-nav"> 
+                <div class="search-input-wrapper">
+                    <input type="text" class="input" aria-label="Search Product" placeholder="Search Product">
+                </div>
+                <nav>
+                    <ul class="navigation">
+                        <li class=" search-icon">
+                            <a href="" class="link">
+                                <div class="badge-container">
+                                    <i class="fas fa-search icon"></i>
+                                </div>
+                            </a>
+                        </li>
+                        <li >
+                            <a href="./cart.html" class="link">
+                                <div class="badge-container">
+                                    <i class="fas fa-shopping-cart icon"></i>
+                                    <span class="badge badge-status badge-notification">3</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./wishlist.html" class="link">
+                                <div class="badge-container">
+                                    <i class="fas fa-heart icon"></i>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./login.html" class="link">
+                                <div class="badge-container">
+                                    <i class="fa-solid fa-user icon"></i>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="logout-container flex flex-items-center flex-justify-center">
+        <div class="card-logout flex flex-col flex-items-center m-md">
+            <i class="fas fa-circle-check icon"></i>
+            <p class="logout-msg txt-center">You have been logged out successfully!</p>
+            <a href="../home.html" class="link txt-primary">Back to home</a>
+        </div>
+    </main>
     
 </body>
 </html>
