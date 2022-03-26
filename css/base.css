@@ -27,9 +27,6 @@
     font-style: italic;
   }
 
-  :root{  
-  --box-shadow-card: 0px 3px 18px -5px #d1d5db;
-  }
   .width-100 {
     width: 100%;
   }
